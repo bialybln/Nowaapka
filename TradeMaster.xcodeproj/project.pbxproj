@@ -1,0 +1,172 @@
+// !$*UTF8*$!
+{
+archiveVersion = 1;
+classes = {};
+objectVersion = 56;
+objects = {
+
+/* Begin PBXBuildFile section */
+1D1D1D1D1D1D1D1D1D1D200 /* TradeMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1D1D1D1D1D1D1D1D1D100 /* TradeMasterApp.swift */; };
+1D1D1D1D1D1D1D1D1D1D201 /* Trade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1D1D1D1D1D1D1D1D110 /* Trade.swift */; };
+1D1D1D1D1D1D1D1D1D1D202 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1D1D1D1D1D1D1D1D111 /* UserSettings.swift */; };
+1D1D1D1D1D1D1D1D1D1D203 /* AccountStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1D1D1D1D1D1D1D1D112 /* AccountStats.swift */; };
+1D1D1D1D1D1D1D1D1D1D204 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1D1D1D1D1D1D1D1D120 /* KeychainService.swift */; };
+1D1D1D1D1D1D1D1D1D1D205 /* BiometricAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1D1D1D1D1D1D1D1D121 /* BiometricAuthService.swift */; };
+1D1D1D1D1D1D1D1D1D1D206 /* SampleDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1D1D1D1D1D1D1D1D122 /* SampleDataService.swift */; };
+1D1D1D1D1D1D1D1D1D1D207 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1D1D1D1D1D1D1D1D130 /* Formatters.swift */; };
+1D1D1D1D1D1D1D1D1D1D208 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1D1D1D1D1D1D1D1D140 /* LoginView.swift */; };
+1D1D1D1D1D1D1D1D1D1D209 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1D1D1D1D1D1D1D1D141 /* MainTabView.swift */; };
+1D1D1D1D1D1D1D1D1D1D20A /* PositionCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1D1D1D1D1D1D1D1D142 /* PositionCalculatorView.swift */; };
+1D1D1D1D1D1D1D1D1D1D20B /* AccountStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1D1D1D1D1D1D1D1D143 /* AccountStatsView.swift */; };
+1D1D1D1D1D1D1D1D1D1D20C /* TradeJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1D1D1D1D1D1D1D1D144 /* TradeJournalView.swift */; };
+1D1D1D1D1D1D1D1D1D1D20D /* TradeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1D1D1D1D1D1D1D1D145 /* TradeRowView.swift */; };
+1D1D1D1D1D1D1D1D1D1D20E /* TradeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1D1D1D1D1D1D1D1D146 /* TradeDetailView.swift */; };
+1D1D1D1D1D1D1D1D1D1D20F /* ProgressHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1D1D1D1D1D1D1D1D147 /* ProgressHeaderView.swift */; };
+1D1D1D1D1D1D1D1D1D1D210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D1D1D1D1D1D1D1D1D150 /* Assets.xcassets */; };
+1D1D1D1D1D1D1D1D1D1D211 /* pocoyo-progress.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D1D1D1D1D1D1D1D1D151 /* pocoyo-progress.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+1D1D1D1D1D1D1D1D1D1D100 /* TradeMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeMaster/TradeMasterApp.swift; sourceTree = "<group>"; };
+1D1D1D1D1D1D1D1D1D110 /* Trade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeMaster/Models/Trade.swift; sourceTree = "<group>"; };
+1D1D1D1D1D1D1D1D1D111 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeMaster/Models/UserSettings.swift; sourceTree = "<group>"; };
+1D1D1D1D1D1D1D1D1D112 /* AccountStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeMaster/Models/AccountStats.swift; sourceTree = "<group>"; };
+1D1D1D1D1D1D1D1D1D120 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeMaster/Services/KeychainService.swift; sourceTree = "<group>"; };
+1D1D1D1D1D1D1D1D1D121 /* BiometricAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeMaster/Services/BiometricAuthService.swift; sourceTree = "<group>"; };
+1D1D1D1D1D1D1D1D1D122 /* SampleDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeMaster/Services/SampleDataService.swift; sourceTree = "<group>"; };
+1D1D1D1D1D1D1D1D1D130 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeMaster/Utils/Formatters.swift; sourceTree = "<group>"; };
+1D1D1D1D1D1D1D1D1D140 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeMaster/Views/LoginView.swift; sourceTree = "<group>"; };
+1D1D1D1D1D1D1D1D1D141 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeMaster/Views/MainTabView.swift; sourceTree = "<group>"; };
+1D1D1D1D1D1D1D1D1D142 /* PositionCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeMaster/Views/PositionCalculatorView.swift; sourceTree = "<group>"; };
+1D1D1D1D1D1D1D1D1D143 /* AccountStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeMaster/Views/AccountStatsView.swift; sourceTree = "<group>"; };
+1D1D1D1D1D1D1D1D1D144 /* TradeJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeMaster/Views/TradeJournalView.swift; sourceTree = "<group>"; };
+1D1D1D1D1D1D1D1D1D145 /* TradeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeMaster/Views/TradeRowView.swift; sourceTree = "<group>"; };
+1D1D1D1D1D1D1D1D1D146 /* TradeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeMaster/Views/TradeDetailView.swift; sourceTree = "<group>"; };
+1D1D1D1D1D1D1D1D1D147 /* ProgressHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeMaster/Views/ProgressHeaderView.swift; sourceTree = "<group>"; };
+1D1D1D1D1D1D1D1D1D150 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TradeMaster/Resources/Assets.xcassets; sourceTree = "<group>"; };
+1D1D1D1D1D1D1D1D1D151 /* pocoyo-progress.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TradeMaster/Animations/pocoyo-progress.json; sourceTree = "<group>"; };
+1D1D1D1D1D1D1D1D1D152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TradeMaster/Resources/Info.plist; sourceTree = "<group>"; };
+1D1D1D1D1D1D1D1D1D400 /* TradeMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradeMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+1D1D1D1D1D1D1D1D1D1D070 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = ( ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+1D1D1D1D1D1D1D1D1D1D003 /* Products */ = {isa = PBXGroup; children = (1D1D1D1D1D1D1D1D1D1D400 /* TradeMaster.app */); name = Products; sourceTree = "<group>"; };
+1D1D1D1D1D1D1D1D1D1D002 /* TradeMaster */ = {isa = PBXGroup; children = (
+1D1D1D1D1D1D1D1D1D1D100 /* TradeMasterApp.swift */,
+1D1D1D1D1D1D1D1D1D110 /* Trade.swift */,
+1D1D1D1D1D1D1D1D1D111 /* UserSettings.swift */,
+1D1D1D1D1D1D1D1D1D112 /* AccountStats.swift */,
+1D1D1D1D1D1D1D1D1D120 /* KeychainService.swift */,
+1D1D1D1D1D1D1D1D1D121 /* BiometricAuthService.swift */,
+1D1D1D1D1D1D1D1D1D122 /* SampleDataService.swift */,
+1D1D1D1D1D1D1D1D1D130 /* Formatters.swift */,
+1D1D1D1D1D1D1D1D1D140 /* LoginView.swift */,
+1D1D1D1D1D1D1D1D1D141 /* MainTabView.swift */,
+1D1D1D1D1D1D1D1D1D142 /* PositionCalculatorView.swift */,
+1D1D1D1D1D1D1D1D1D143 /* AccountStatsView.swift */,
+1D1D1D1D1D1D1D1D1D144 /* TradeJournalView.swift */,
+1D1D1D1D1D1D1D1D1D145 /* TradeRowView.swift */,
+1D1D1D1D1D1D1D1D1D146 /* TradeDetailView.swift */,
+1D1D1D1D1D1D1D1D1D147 /* ProgressHeaderView.swift */,
+1D1D1D1D1D1D1D1D1D150 /* Assets.xcassets */,
+1D1D1D1D1D1D1D1D1D151 /* pocoyo-progress.json */,
+1D1D1D1D1D1D1D1D1D152 /* Info.plist */
+); name = TradeMaster; sourceTree = "<group>"; };
+1D1D1D1D1D1D1D1D1D1D001 /* Main Group */ = {isa = PBXGroup; children = (
+1D1D1D1D1D1D1D1D1D1D002 /* TradeMaster */,
+1D1D1D1D1D1D1D1D1D1D003 /* Products */
+); sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+1D1D1D1D1D1D1D1D1D1D020 /* TradeMaster */ = {isa = PBXNativeTarget; buildConfigurationList = 1D1D1D1D1D1D1D1D1D1D080 /* Build configuration list for PBXNativeTarget "TradeMaster" */; buildPhases = (
+1D1D1D1D1D1D1D1D1D1D060 /* Sources */,
+1D1D1D1D1D1D1D1D1D070 /* Frameworks */,
+1D1D1D1D1D1D1D1D1D061 /* Resources */
+); buildRules = ( ); dependencies = ( ); name = TradeMaster; productName = TradeMaster; productReference = 1D1D1D1D1D1D1D1D1D1D400 /* TradeMaster.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+1D1D1D1D1D1D1D1D1D1D000 /* Project object */ = {isa = PBXProject; attributes = {LastSwiftUpdateCheck = 1500; LastUpgradeCheck = 1500; ORGANIZATIONNAME = Codex; }; buildConfigurationList = 1D1D1D1D1D1D1D1D1D1D090 /* Build configuration list for PBXProject "TradeMaster" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en); mainGroup = 1D1D1D1D1D1D1D1D1D1D001 /* Main Group */; productRefGroup = 1D1D1D1D1D1D1D1D1D1D003 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (1D1D1D1D1D1D1D1D1D1D020 /* TradeMaster */); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+1D1D1D1D1D1D1D1D1D1D061 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+1D1D1D1D1D1D1D1D1D1D210 /* Assets.xcassets in Resources */,
+1D1D1D1D1D1D1D1D1D1D211 /* pocoyo-progress.json in Resources */
+); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+1D1D1D1D1D1D1D1D1D1D060 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+1D1D1D1D1D1D1D1D1D1D200 /* TradeMasterApp.swift in Sources */,
+1D1D1D1D1D1D1D1D1D1D201 /* Trade.swift in Sources */,
+1D1D1D1D1D1D1D1D1D1D202 /* UserSettings.swift in Sources */,
+1D1D1D1D1D1D1D1D1D1D203 /* AccountStats.swift in Sources */,
+1D1D1D1D1D1D1D1D1D1D204 /* KeychainService.swift in Sources */,
+1D1D1D1D1D1D1D1D1D1D205 /* BiometricAuthService.swift in Sources */,
+1D1D1D1D1D1D1D1D1D1D206 /* SampleDataService.swift in Sources */,
+1D1D1D1D1D1D1D1D1D1D207 /* Formatters.swift in Sources */,
+1D1D1D1D1D1D1D1D1D1D208 /* LoginView.swift in Sources */,
+1D1D1D1D1D1D1D1D1D1D209 /* MainTabView.swift in Sources */,
+1D1D1D1D1D1D1D1D1D1D20A /* PositionCalculatorView.swift in Sources */,
+1D1D1D1D1D1D1D1D1D1D20B /* AccountStatsView.swift in Sources */,
+1D1D1D1D1D1D1D1D1D1D20C /* TradeJournalView.swift in Sources */,
+1D1D1D1D1D1D1D1D1D1D20D /* TradeRowView.swift in Sources */,
+1D1D1D1D1D1D1D1D1D1D20E /* TradeDetailView.swift in Sources */,
+1D1D1D1D1D1D1D1D1D1D20F /* ProgressHeaderView.swift in Sources */
+); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+1D1D1D1D1D1D1D1D1D1D091 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+CLANG_ENABLE_OBJC_ARC = YES;
+CODE_SIGN_STYLE = Automatic;
+DEVELOPMENT_TEAM = "";
+INFOPLIST_FILE = TradeMaster/Resources/Info.plist;
+IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+PRODUCT_BUNDLE_IDENTIFIER = com.example.TradeMaster;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SDKROOT = iphoneos;
+SWIFT_EMIT_LOC_STRINGS = YES;
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+}; name = Debug; };
+1D1D1D1D1D1D1D1D1D1D092 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+CLANG_ENABLE_OBJC_ARC = YES;
+CODE_SIGN_STYLE = Automatic;
+DEVELOPMENT_TEAM = "";
+INFOPLIST_FILE = TradeMaster/Resources/Info.plist;
+IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+PRODUCT_BUNDLE_IDENTIFIER = com.example.TradeMaster;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SDKROOT = iphoneos;
+SWIFT_EMIT_LOC_STRINGS = YES;
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+1D1D1D1D1D1D1D1D1D1D080 /* Build configuration list for PBXNativeTarget "TradeMaster" */ = {isa = XCConfigurationList; buildConfigurations = (
+1D1D1D1D1D1D1D1D1D1D091 /* Debug */,
+1D1D1D1D1D1D1D1D1D1D092 /* Release */
+); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+1D1D1D1D1D1D1D1D1D1D090 /* Build configuration list for PBXProject "TradeMaster" */ = {isa = XCConfigurationList; buildConfigurations = (
+1D1D1D1D1D1D1D1D1D1D091 /* Debug */,
+1D1D1D1D1D1D1D1D1D1D092 /* Release */
+); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+};
+rootObject = 1D1D1D1D1D1D1D1D1D1D000 /* Project object */;
+}
