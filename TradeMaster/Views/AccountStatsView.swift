@@ -59,7 +59,7 @@ struct AccountStatsView: View {
             }
             .padding()
         }
-        .background(Color(.systemGroupedBackground))
+        .background(Color.black.edgesIgnoringSafeArea(.all))
         .navigationTitle("Statystyki konta")
     }
 
@@ -72,7 +72,7 @@ struct AccountStatsView: View {
         }
         .padding()
         .frame(maxWidth: .infinity)
-        .background(.thinMaterial)
+        .background(Color(red: 0.14, green: 0.14, blue: 0.18))
         .cornerRadius(14)
     }
 }

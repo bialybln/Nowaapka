@@ -14,7 +14,7 @@ struct TradeRowView: View {
             }
             Spacer()
             VStack(alignment: .trailing, spacing: 4) {
-                Text(String(format: "%.2f lot", trade.lotSize))
+                Text(String(format: "%.4f jednostek", trade.totalUnits))
                     .font(.subheadline.weight(.semibold))
                 Text(outcomeEmoji + " " + trade.outcome.rawValue)
                     .font(.caption)
@@ -25,13 +25,13 @@ struct TradeRowView: View {
             }
         }
         .padding()
-        .background(.thinMaterial)
+        .background(Color(red: 0.14, green: 0.14, blue: 0.18))
         .cornerRadius(14)
     }
 
     private var outcomeEmoji: String {
         switch trade.outcome {
-        case .tp: return "✅"
+        case .tp1, .tp2, .tp3: return "✅"
         case .sl: return "❌"
         case .be: return "🟦"
         }

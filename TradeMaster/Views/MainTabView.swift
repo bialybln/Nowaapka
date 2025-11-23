@@ -21,5 +21,6 @@ struct MainTabView: View {
         .onAppear {
             if trades.isEmpty { SampleDataService.bootstrap(context: context) }
         }
+        .tint(.white)
     }
 }

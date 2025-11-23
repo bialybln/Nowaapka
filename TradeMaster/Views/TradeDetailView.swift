@@ -10,9 +10,13 @@ struct TradeDetailView: View {
             Form {
                 Section("Szczegóły") {
                     TextField("Instrument", text: $trade.instrument)
-                    Stepper(value: $trade.lotSize, in: 0...100, step: 0.01) {
-                        Text("Lot: \(trade.lotSize, specifier: "%.2f")")
+                    Stepper(value: $trade.totalUnits, in: 0...100000, step: 0.0001) {
+                        Text("Jednostki: \(trade.totalUnits, specifier: "%.4f")")
                     }
+                    TextField("Entry", value: $trade.entryPrice, format: .number)
+                        .keyboardType(.decimalPad)
+                    TextField("Stop Loss", value: $trade.stopLoss, format: .number)
+                        .keyboardType(.decimalPad)
                     DatePicker("Data", selection: $trade.date, displayedComponents: [.date, .hourAndMinute])
                     Picker("Wynik", selection: $trade.outcome) {
                         ForEach(Trade.Outcome.allCases) { outcome in
@@ -21,6 +25,16 @@ struct TradeDetailView: View {
                     }
                     TextField("Kwota", value: $trade.profitLoss, format: .number)
                         .keyboardType(.decimalPad)
+                }
+
+                Section("Take Profit") {
+                    ForEach(Array(trade.takeProfits.enumerated()), id: \.offset) { index, _ in
+                        TextField("TP \(index + 1)", value: Binding(
+                            get: { trade.takeProfits[index] },
+                            set: { trade.takeProfits[index] = $0 }
+                        ), format: .number)
+                        .keyboardType(.decimalPad)
+                    }
                 }
             }
             .navigationTitle("Edytuj trade")

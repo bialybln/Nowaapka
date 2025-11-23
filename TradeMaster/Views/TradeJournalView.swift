@@ -44,6 +44,7 @@ struct TradeJournalView: View {
                 TradeDetailView(trade: trade)
             }
         }
+        .background(Color.black)
     }
 
     private var filterChips: some View {
@@ -63,7 +64,7 @@ struct TradeJournalView: View {
                 .padding(.vertical, 8)
                 .padding(.horizontal, 14)
                 .background(isActive ? LinearGradient.tradeMaster : Color(uiColor: .secondarySystemBackground))
-                .foregroundStyle(isActive ? .white : .primary)
+                .foregroundStyle(isActive ? .white : .white.opacity(0.8))
                 .cornerRadius(16)
                 .shadow(radius: isActive ? 8 : 0)
         }

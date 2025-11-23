@@ -25,22 +25,25 @@ struct ProgressHeaderView: View {
                         .foregroundStyle(.secondary)
                 }
                 Spacer()
-                PocoyoAnimationView()
-                    .frame(width: 120, height: 120)
             }
 
             GeometryReader { geo in
                 ZStack(alignment: .leading) {
-                    Capsule().fill(Color.gray.opacity(0.15))
+                    Capsule().fill(Color.white.opacity(0.12))
                     Capsule().fill(LinearGradient.tradeMaster)
                         .frame(width: geo.size.width * progress)
                         .animation(.easeInOut(duration: 0.8), value: progress)
+
+                    PocoyoAnimationView()
+                        .frame(width: 80, height: 80)
+                        .offset(x: max(0, geo.size.width * progress - 40), y: -34)
+                        .animation(.easeInOut(duration: 0.8), value: progress)
                 }
             }
-            .frame(height: 12)
+            .frame(height: 40)
         }
         .padding()
-        .background(.thinMaterial)
+        .background(Color(red: 0.14, green: 0.14, blue: 0.18).opacity(0.9))
         .cornerRadius(18)
     }
 }

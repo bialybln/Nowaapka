@@ -19,13 +19,15 @@ final class UserSettings {
     var capitalGoal: Double
     var initialCapital: Double
     var currentCapital: Double
+    var riskPercent: Double
     var preferredAuthMethod: AuthMethod
     var storedPasswordIdentifier: String?
 
-    init(capitalGoal: Double, initialCapital: Double, currentCapital: Double, preferredAuthMethod: AuthMethod, storedPasswordIdentifier: String? = nil) {
+    init(capitalGoal: Double, initialCapital: Double, currentCapital: Double, riskPercent: Double = 1.0, preferredAuthMethod: AuthMethod, storedPasswordIdentifier: String? = nil) {
         self.capitalGoal = capitalGoal
         self.initialCapital = initialCapital
         self.currentCapital = currentCapital
+        self.riskPercent = riskPercent
         self.preferredAuthMethod = preferredAuthMethod
         self.storedPasswordIdentifier = storedPasswordIdentifier
     }

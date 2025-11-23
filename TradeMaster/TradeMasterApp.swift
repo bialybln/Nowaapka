@@ -7,6 +7,7 @@ struct TradeMasterApp: App {
         WindowGroup {
             ContentView()
                 .modelContainer(for: [Trade.self, UserSettings.self, AccountStats.self])
+                .preferredColorScheme(.dark)
         }
     }
 }
@@ -26,7 +27,7 @@ struct ContentView: View {
         }
         .task {
             if users.isEmpty {
-                let settings = UserSettings(capitalGoal: 20000, initialCapital: 10000, currentCapital: 10000, preferredAuthMethod: .biometric)
+                let settings = UserSettings(capitalGoal: 20000, initialCapital: 10000, currentCapital: 10000, riskPercent: 1.0, preferredAuthMethod: .biometric)
                 context.insert(settings)
                 try? context.save()
             }
